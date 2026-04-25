@@ -61,3 +61,32 @@ Create a file named `.env` and add the following:
 MONGODB_URI=your-mongodb-atlas-connection-uri
 PORT=5000
 
+Installation Instructions
+
+To run this project locally, follow these steps:
+
+1. Clone or download the repository
+2. Install dependencies
+
+For backend:
+
+cd server
+npm install
+
+For frontend:
+
+cd client
+npm install
+
+3. Run the project
+
+Start backend:
+
+npm run server
+
+Start frontend:
+
+cd client
+npm start
+
+Note: The node_modules folder is not included in the submission to reduce file size. Please install dependencies using npm install before running the project.
